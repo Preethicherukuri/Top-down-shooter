@@ -26,10 +26,36 @@ A fast-paced top-down shooter built with Python and Pygame featuring survival ga
 
 ## Controls
 
+| Control            | Action          |
+|--------------------|-----------------|
+| Arrow Keys         | Move player     |
+| Mouse              | Aim             |
+| Left Mouse Button  | Shoot           |
+| ESC                | Pause/Resume    |
+| ENTER              | Confirm/Restart |
+
 ## Gameplay
 
-## File Structure
+- Survive for the required time to complete each level
 
+- Enemies spawn faster and in greater numbers as you progress
+
+- Chain kills to build your combo multiplier
+
+- Avoid contact with enemies - they deal damage on touch
+  
+## File Structure
+ ```
+top-down-shooter/
+├── shooter.py       
+└── README.md   
+ ```
 ## Requirements
 
+- Python 3.6+
+
+- Pygame 2.0+
+
 ## Contributing
+
+Contributions are welcome! Please open an issue or pull request for any improvements.
